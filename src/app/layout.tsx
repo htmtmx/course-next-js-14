@@ -19,9 +19,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <header>
           <ul>
-            <li>Home</li>
-            <li>Store</li>
-            <li>Contact</li>
+            <li><a href="/">Home</a></li>
+            <li><a href="/store">Store</a></li>
+            <li><a href="/store/contact">Contact</a></li>
           </ul>
         </header>
         {children}
